@@ -42,7 +42,7 @@ module.exports = {
                     });
                 }
             }
-            return res.status(200).json({
+            return res.status(201).json({
                 success: 1,
                 data: results
             });
